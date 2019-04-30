@@ -1,0 +1,50 @@
+.mainDiv{
+    border-style:solid ;
+    border-width: 2px;
+    border-color: red;
+    width: 210px;
+    display:block;
+    float: left;
+    margin: 2px;
+    box-sizing: border-box
+}
+
+.multiselect {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+}
+
+.selectBox {
+  position: relative;
+  
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+  
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  height: 200px;
+}
+
+#checkboxes label {
+  display: block;
+  
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
